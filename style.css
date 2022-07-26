@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #bienvenido{
+    text-align: center;
+    font-size: 40px;
+    margin: 1rem;
+    font-family: cursive;
+    
+  }
+ 
+  .tarjetas-poke{
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 5px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+  } 
+  
+  .tarjeta{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 185px;
+      margin: 10px;
+      border-radius: 12px;
+      border: 3px solid beige;
+      padding: 15px;
+  }
+  
+
+  .img-container{
+      width:60px;
+      height:100px;
+      margin: 15px;
+  }
+  .img-container :hover {
+      width: 90px;
+      height: 105px;
+      margin: 10px
+  }
+
+  
